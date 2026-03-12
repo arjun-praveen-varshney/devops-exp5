@@ -29,7 +29,7 @@ public class AdditionTest {
         // Click Add button
         driver.findElement(By.tagName("button")).click();
 
-        Thread.sleep(1000);
+        Thread.sleep(20000);
 
         // Verify result
         String result = driver.findElement(By.id("result")).getText();
